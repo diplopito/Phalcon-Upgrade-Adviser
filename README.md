@@ -1,9 +1,10 @@
-# phalconUpgrader
-Console application that indexes all PHP files in a Phalcon application and returns a log with all the classes that need to be changed in order to upgrade from version 3.x to 4.x. Can be used to check a single file as well.
+# Phalcon Upgrade Adviser (Unofficial)
+This console application aims to smooth the upgrade process from Phalcon 3.x to 4.x by indexing all the PHP files in a project and listing all the Phalcon classes that must be changed per file. It is a _proactive_ approach: rather than bumping from error to error, it helps the developer to make (hopefully) all the changes necessary before running the app. It can be used along the upgrade process to follow up all the pending tasks; at the end, there should be no 3.x classes listed in the log file. 
+
+The Adviser is a companion to the [Official Phalcon upgrade guide](https://github.com/phalcon/docs/blob/4.0/en/upgrade.md): whenever the log points to a _renamed_ class, it is recommendable to check the guide to know exactly what has to be changed.
 
 ## Requirements
-- Phalcon 3.x or 4.x;
-- PHP 5.6, 7.x
+- Phalcon 4.x;
 
 ## Usage
 - Open a terminal window;
@@ -31,3 +32,5 @@ Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl::DENY) => Check changes in constant
 ```
 
+## Note
+The Adviser will skip the _.git_ and _vendor_ directories.
