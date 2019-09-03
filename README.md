@@ -7,17 +7,17 @@ Console application that indexes all PHP files in a Phalcon application and retu
 
 ## Usage
 - Open a terminal window;
-- Run cli.php. Accepts two string parameters:
-1. File name or path to application;
-2. Log file (if not given, default is "upgraderLog.txt")
+- Command line cli.php Main createLog // Accepts two string parameters:
+1. Required: File name or path to application;
+2. Optional Log file ("upgraderLog.txt" by default).
 
 ### Example:
 ```php
 //For full app check provide the path to the app:
-php cli.php /home/user/Vokuro upgrader.txt //stores result in log file
+php cli.php Main createLog /home/user/Vokuro upgrader.txt //stores result in log file
 
 //To check just one file; result will be returned to terminal:
-php cli.php /home/user/Vokuro/app/library/Acl/Acl.php
+php cli.php Main createLog /home/user/Vokuro/app/library/Acl/Acl.php
 
 //Returns:
 /home/user/Vokuro/app/library/Acl/Acl.php:
