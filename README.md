@@ -23,7 +23,7 @@ View [Log file](https://github.com/diplopito/Phalcon-Upgrade-Adviser/blob/master
 php cli.php Main createLog /mnt/f/xampp/htdocs/xtest/vokuro/app/library/Acl/Acl.php
 
 //Returns:
-/home/user/Vokuro/app/library/Acl/Acl.php:
+/mnt/f/xampp/htdocs/xtest/vokuro/app/library/Acl/Acl.php:
 Phalcon\Mvc\User\Component => Renamed to Phalcon\Plugin
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl\Role => No changes (Might need to check types)
