@@ -12,7 +12,7 @@ class Utils
                 if (substr(strtolower($path), -4) == ".php") {
                     $phpFiles[] = $path;
                 }
-            } else if ($value != "." && $value != ".." && $value != "vendor" && $value != ".git" && $value != "cache") {
+            } else if ($value != "." && $value != ".." && $value != "vendor" && $value != ".git") {
                 $this->getPhpFiles($path, $phpFiles);
                 if (substr(strtolower($path), -4) == ".php") {
                     $phpFiles[] = $path;
@@ -22,4 +22,5 @@ class Utils
         return;
     }
 }
+
 
