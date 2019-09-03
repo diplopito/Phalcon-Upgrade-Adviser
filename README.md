@@ -1,5 +1,5 @@
 # phalconUpgrader
-Console application that indexes all PHP files in a Phalcon application and returns a log with all the classes that need to be change in order to upgrade from version 3.x to 4.x. Can be used to check a single file as well.
+Console application that indexes all PHP files in a Phalcon application and returns a log with all the classes that need to be changed in order to upgrade from version 3.x to 4.x. Can be used to check a single file as well.
 
 ## Requirements
 - Phalcon 3.x or 4.x;
@@ -8,13 +8,26 @@ Console application that indexes all PHP files in a Phalcon application and retu
 ## Usage
 - Open a terminal window;
 - Run cli.php. Accepts two string parameters:
--- 1. File name or path to application;
--- 2. Log file (if not given, default is "upgraderLog.txt")
+1. File name or path to application;
+2. Log file (if not given, default is "upgraderLog.txt")
 
 ### Example:
 ```php
 //For full app check provide the path to the app:
-\home\user\upgrader\php cli.php \home\user\Vokuro upgrader.txt
+php cli.php /home/user/Vokuro upgrader.txt //stores result in log file
 
 //To check just one file; result will be returned to terminal:
-\home\user\upgrader\php cli.php \home\user\Vokuro\app\library\Acl\Acl.php
+php cli.php /home/user/Vokuro/app/library/Acl/Acl.php
+
+//Returns:
+/home/user/Vokuro/app/library/Acl/Acl.php:
+Phalcon\Mvc\User\Component => Renamed to Phalcon\Plugin
+Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
+Phalcon\Acl\Role => No changes (Might need to check types)
+Phalcon\Acl\Resource => Renamed to Phalcon\Acl\Component
+Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
+Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
+Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
+Phalcon\Acl::DENY) => Check changes in constant
+```
+
