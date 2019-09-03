@@ -8,7 +8,7 @@ The Adviser is a companion to the [Official Phalcon upgrade guide](https://githu
 
 ## Usage
 - Open a terminal window;
-- Command line cli.php Main createLog // Accepts two string parameters:
+- Command line `php cli.php Main createLog ` // Accepts two string parameters:
 1. Required: File name or path to application;
 2. Optional Log file ("upgraderLog.txt" by default).
 
