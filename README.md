@@ -15,8 +15,10 @@ The Adviser is a companion to the [Official Phalcon upgrade guide](https://githu
 ### Example:
 ```php
 //For full app check provide the path to the app:
-php cli.php Main createLog /home/user/Vokuro upgrader.txt //stores result in log file
-
+php cli.php Main createLog /home/user/Vokuro vokuroLog.txt //stores result in log file
+```
+View [Log file](https://github.com/diplopito/Phalcon-Upgrade-Adviser/blob/master/vokuroLog.txt)
+```php
 //To check just one file; result will be returned to terminal:
 php cli.php Main createLog /home/user/Vokuro/app/library/Acl/Acl.php
 
@@ -31,6 +33,7 @@ Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl::DENY) => Check changes in constant
 ```
+
 
 ## Note
 The Adviser will skip the _.git_ and _vendor_ directories.
