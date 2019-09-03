@@ -78,6 +78,8 @@ class MainTask extends Task
                 $classes[] = $match[0];
             } 
         }
+        
+        fclose($fn);
 
         if (count($classes) == 0) {
             return $file . ":\nNo Phalcon classes found\n\n";
