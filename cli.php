@@ -6,8 +6,8 @@ use Phalcon\Loader;
 
 $phalconVersion = Phalcon\Version::get();
 
-if ($phalconVersion[0] <> "3" && $phalconVersion[0] <> "4") {
-    exit("The upgrader only works with Phalcon 3.x or 4.x");
+if ($phalconVersion[0] <> "4") {
+    exit("The Upgrade Adviser only works with Phalcon 4.x");
 }
 
 require_once('library/consts/Phalcon3to4.php');
