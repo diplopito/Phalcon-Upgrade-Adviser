@@ -59,7 +59,7 @@ class MainTask extends Task
 
         $this->writeLog($log);
 
-        echo "Check LOG_FILE to review the necessary changes for upgrading";
+        echo "Check '{$this->logFile}' to review the necessary changes for upgrading";
     }
 
     private function logPhalconClassesState(string $file)
