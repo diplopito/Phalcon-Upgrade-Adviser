@@ -15,12 +15,12 @@ The Adviser is a companion to the [Official Phalcon upgrade guide](https://githu
 ### Example:
 ```php
 //For full app check provide the path to the app:
-php cli.php Main createLog /home/user/Vokuro vokuroLog.txt //stores result in log file
+php cli.php Main createLog /mnt/f/xampp/htdocs/xtest/vokuro vokuroLog.txt //stores result in log file
 ```
 View [Log file](https://github.com/diplopito/Phalcon-Upgrade-Adviser/blob/master/vokuroLog.txt)
 ```php
 //To check just one file; result will be returned to terminal:
-php cli.php Main createLog /home/user/Vokuro/app/library/Acl/Acl.php
+php cli.php Main createLog /mnt/f/xampp/htdocs/xtest/vokuro/app/library/Acl/Acl.php
 
 //Returns:
 /home/user/Vokuro/app/library/Acl/Acl.php:
