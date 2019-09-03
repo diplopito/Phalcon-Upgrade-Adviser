@@ -57,7 +57,7 @@ class MainTask extends Task
             $log .= $this->logPhalconClassesState($file);
         }
 
-        $this->writeLog($log);
+        file_put_contents($this->logFile, $log);
 
         echo "Check '{$this->logFile}' to review the necessary changes for upgrading";
     }
@@ -104,10 +104,5 @@ class MainTask extends Task
         }
 
         return $log;
-    }
-
-    private function writeLog(string $log)
-    {
-        file_put_contents($this->logFile, $log);
     }
 }
