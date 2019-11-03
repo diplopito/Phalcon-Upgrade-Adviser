@@ -1,76 +1,76 @@
-### Log example for Vokuro
+### Log example for Vokuro for 3.4.x with 4.0.0-RC2
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/config/config.php:
+F:\xampp\htdocs\xtest\vokuro\app\config\config.php:
 Phalcon\Config => No changes (Might need to check types)
-Phalcon\Logger => Renamed to Phalcon\Logger\Logger
+Phalcon\Logger => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/config/loader.php:
+F:\xampp\htdocs\xtest\vokuro\app\config\loader.php:
 Phalcon\Loader => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/config/privateResources.php:
+F:\xampp\htdocs\xtest\vokuro\app\config\privateResources.php:
 Phalcon\Config => No changes (Might need to check types)
-Phalcon\Logger => Renamed to Phalcon\Logger\Logger
+Phalcon\Logger => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/config/routes.php:
+F:\xampp\htdocs\xtest\vokuro\app\config\routes.php:
 Phalcon\Mvc\Router => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/config/services.php:
+F:\xampp\htdocs\xtest\vokuro\app\config\services.php:
 Phalcon\Mvc\View => No changes (Might need to check types)
 Phalcon\Crypt => No changes (Might need to check types)
 Phalcon\Mvc\Dispatcher => No changes (Might need to check types)
-Phalcon\Mvc\Url => Renamed to Phalcon\Url
+Phalcon\Mvc\Url =>  Renamed to Phalcon\Url
 Phalcon\Db\Adapter\Pdo\Mysql => No changes (Might need to check types)
 Phalcon\Mvc\View\Engine\Volt => No changes (Might need to check types)
 Phalcon\Mvc\Model\Metadata\Files => No changes (Might need to check types)
-Phalcon\Session\Adapter\Files => Renamed to Phalcon\Session\Adapter\Stream
+Phalcon\Session\Adapter\Files =>  Renamed to Phalcon\Session\Adapter\Stream
 Phalcon\Flash\Direct => No changes (Might need to check types)
-Phalcon\Logger\Adapter\File => Renamed to Phalcon\Logger\Adapter\Stream
+Phalcon\Logger\Adapter\File =>  Renamed to Phalcon\Logger\Adapter\Stream
 Phalcon\Logger\Formatter\Line => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/AboutController.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\AboutController.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/ControllerBase.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\ControllerBase.php:
 Phalcon\Mvc\Controller => No changes (Might need to check types)
 Phalcon\Mvc\Dispatcher => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/IndexController.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\IndexController.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/PermissionsController.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\PermissionsController.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/PrivacyController.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\PrivacyController.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/ProfilesController.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\ProfilesController.php:
 Phalcon\Tag => No changes (Might need to check types)
 Phalcon\Mvc\Model\Criteria => No changes (Might need to check types)
 Phalcon\Paginator\Adapter\Model => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/SessionController.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\SessionController.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/TermsController.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\TermsController.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/UserControlController.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\UserControlController.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/controllers/UsersController.php:
+F:\xampp\htdocs\xtest\vokuro\app\controllers\UsersController.php:
 Phalcon\Tag => No changes (Might need to check types)
 Phalcon\Mvc\Model\Criteria => No changes (Might need to check types)
 Phalcon\Paginator\Adapter\Model => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/forms/ChangePasswordForm.php:
+F:\xampp\htdocs\xtest\vokuro\app\forms\ChangePasswordForm.php:
 Phalcon\Forms\Form => No changes (Might need to check types)
 Phalcon\Forms\Element\Password => No changes (Might need to check types)
 Phalcon\Validation\Validator\PresenceOf => No changes (Might need to check types)
@@ -78,7 +78,7 @@ Phalcon\Validation\Validator\StringLength => No changes (Might need to check typ
 Phalcon\Validation\Validator\Confirmation => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/forms/ForgotPasswordForm.php:
+F:\xampp\htdocs\xtest\vokuro\app\forms\ForgotPasswordForm.php:
 Phalcon\Forms\Form => No changes (Might need to check types)
 Phalcon\Forms\Element\Text => No changes (Might need to check types)
 Phalcon\Forms\Element\Submit => No changes (Might need to check types)
@@ -86,7 +86,7 @@ Phalcon\Validation\Validator\PresenceOf => No changes (Might need to check types
 Phalcon\Validation\Validator\Email => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/forms/LoginForm.php:
+F:\xampp\htdocs\xtest\vokuro\app\forms\LoginForm.php:
 Phalcon\Forms\Form => No changes (Might need to check types)
 Phalcon\Forms\Element\Text => No changes (Might need to check types)
 Phalcon\Forms\Element\Password => No changes (Might need to check types)
@@ -98,7 +98,7 @@ Phalcon\Validation\Validator\Email => No changes (Might need to check types)
 Phalcon\Validation\Validator\Identical => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/forms/ProfilesForm.php:
+F:\xampp\htdocs\xtest\vokuro\app\forms\ProfilesForm.php:
 Phalcon\Forms\Form => No changes (Might need to check types)
 Phalcon\Forms\Element\Text => No changes (Might need to check types)
 Phalcon\Forms\Element\Hidden => No changes (Might need to check types)
@@ -107,7 +107,7 @@ Phalcon\Validation\Validator\PresenceOf => No changes (Might need to check types
 Phalcon\Validation\Validator\Email => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/forms/SignUpForm.php:
+F:\xampp\htdocs\xtest\vokuro\app\forms\SignUpForm.php:
 Phalcon\Forms\Form => No changes (Might need to check types)
 Phalcon\Forms\Element\Text => No changes (Might need to check types)
 Phalcon\Forms\Element\Hidden => No changes (Might need to check types)
@@ -121,7 +121,7 @@ Phalcon\Validation\Validator\StringLength => No changes (Might need to check typ
 Phalcon\Validation\Validator\Confirmation => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/forms/UsersForm.php:
+F:\xampp\htdocs\xtest\vokuro\app\forms\UsersForm.php:
 Phalcon\Forms\Form => No changes (Might need to check types)
 Phalcon\Forms\Element\Text => No changes (Might need to check types)
 Phalcon\Forms\Element\Hidden => No changes (Might need to check types)
@@ -130,94 +130,94 @@ Phalcon\Validation\Validator\PresenceOf => No changes (Might need to check types
 Phalcon\Validation\Validator\Email => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/library/Acl/Acl.php:
-Phalcon\Mvc\User\Component => Renamed to Phalcon\Plugin
+F:\xampp\htdocs\xtest\vokuro\app\library\Acl\Acl.php:
+Phalcon\Mvc\User\Component =>  Renamed to Phalcon\Di\AbstractInjectionAware
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl\Role => No changes (Might need to check types)
-Phalcon\Acl\Resource => Renamed to Phalcon\Acl\Component
+Phalcon\Acl\Resource =>  Renamed to Phalcon\Acl\Component
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl::DENY) => Check possible changes in constant
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/library/Auth/Auth.php:
-Phalcon\Mvc\User\Component => Renamed to Phalcon\Plugin
+F:\xampp\htdocs\xtest\vokuro\app\library\Auth\Auth.php:
+Phalcon\Mvc\User\Component =>  Renamed to Phalcon\Di\AbstractInjectionAware
 Phalcon\Http\Response => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/library/Auth/Exception.php:
+F:\xampp\htdocs\xtest\vokuro\app\library\Auth\Exception.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/library/Mail/Exception.php:
+F:\xampp\htdocs\xtest\vokuro\app\library\Mail\Exception.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/library/Mail/Mail.php:
-Phalcon\Mvc\User\Component => Renamed to Phalcon\Plugin
+F:\xampp\htdocs\xtest\vokuro\app\library\Mail\Mail.php:
+Phalcon\Mvc\User\Component =>  Renamed to Phalcon\Di\AbstractInjectionAware
 Phalcon\Mvc\View => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/models/EmailConfirmations.php:
+F:\xampp\htdocs\xtest\vokuro\app\models\EmailConfirmations.php:
 Phalcon\Mvc\Model => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/models/FailedLogins.php:
+F:\xampp\htdocs\xtest\vokuro\app\models\FailedLogins.php:
 Phalcon\Mvc\Model => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/models/PasswordChanges.php:
+F:\xampp\htdocs\xtest\vokuro\app\models\PasswordChanges.php:
 Phalcon\Mvc\Model => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/models/Permissions.php:
+F:\xampp\htdocs\xtest\vokuro\app\models\Permissions.php:
 Phalcon\Mvc\Model => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/models/Profiles.php:
+F:\xampp\htdocs\xtest\vokuro\app\models\Profiles.php:
 Phalcon\Mvc\Model => No changes (Might need to check types)
 Phalcon\Mvc\Model\Relation => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/models/RememberTokens.php:
+F:\xampp\htdocs\xtest\vokuro\app\models\RememberTokens.php:
 Phalcon\Mvc\Model => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/models/ResetPasswords.php:
+F:\xampp\htdocs\xtest\vokuro\app\models\ResetPasswords.php:
 Phalcon\Mvc\Model => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/models/SuccessLogins.php:
+F:\xampp\htdocs\xtest\vokuro\app\models\SuccessLogins.php:
 Phalcon\Mvc\Model => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/app/models/Users.php:
+F:\xampp\htdocs\xtest\vokuro\app\models\Users.php:
 Phalcon\Mvc\Model => No changes (Might need to check types)
 Phalcon\Validation => No changes (Might need to check types)
 Phalcon\Validation\Validator\Uniqueness => No changes (Might need to check types)
 
 
-/mnt/f/xampp/htdocs/xtest/vokuro/cache/volt/_mnt_f_xampp_htdocs_xtest_vokuro_app_views_index.volt.php:
+F:\xampp\htdocs\xtest\vokuro\cache\volt\_mnt_f_xampp_htdocs_xtest_vokuro_app_views_index.volt.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/cache/volt/_mnt_f_xampp_htdocs_xtest_vokuro_app_views_index_index.volt.php:
+F:\xampp\htdocs\xtest\vokuro\cache\volt\_mnt_f_xampp_htdocs_xtest_vokuro_app_views_index_index.volt.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/cache/volt/_mnt_f_xampp_htdocs_xtest_vokuro_app_views_layouts_public.volt.php:
+F:\xampp\htdocs\xtest\vokuro\cache\volt\_mnt_f_xampp_htdocs_xtest_vokuro_app_views_layouts_public.volt.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/cache/volt/f__xampp_htdocs_xtest_vokuro_app_views_index.volt.php:
+F:\xampp\htdocs\xtest\vokuro\cache\volt\f__xampp_htdocs_xtest_vokuro_app_views_index.volt.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/cache/volt/f__xampp_htdocs_xtest_vokuro_app_views_index_index.volt.php:
+F:\xampp\htdocs\xtest\vokuro\cache\volt\f__xampp_htdocs_xtest_vokuro_app_views_index_index.volt.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/cache/volt/f__xampp_htdocs_xtest_vokuro_app_views_layouts_public.volt.php:
+F:\xampp\htdocs\xtest\vokuro\cache\volt\f__xampp_htdocs_xtest_vokuro_app_views_layouts_public.volt.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/cache/volt/f__xampp_htdocs_xtest_vokuro_app_views_session_signup.volt.php:
+F:\xampp\htdocs\xtest\vokuro\cache\volt\f__xampp_htdocs_xtest_vokuro_app_views_session_signup.volt.php:
 No Phalcon classes found
 
-/mnt/f/xampp/htdocs/xtest/vokuro/public/index.php:
+F:\xampp\htdocs\xtest\vokuro\public\index.php:
 Phalcon\DI\FactoryDefault => No changes (Might need to check types)
 Phalcon\Mvc\Application => No changes (Might need to check types)
 
