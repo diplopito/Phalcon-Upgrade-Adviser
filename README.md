@@ -5,6 +5,7 @@ The Adviser is a companion to the [Official Phalcon upgrade guide](https://githu
 
 ## Changelog
 Nov. 16/19: Updated to v4.0.0-RC3
+
 Nov. 3/19: Updated to v4.0.0-RC2
 
 ## Requirements
