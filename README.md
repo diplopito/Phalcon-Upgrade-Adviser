@@ -29,14 +29,14 @@ php cli.php Main createLog /mnt/f/xampp/htdocs/xtest/vokuro/app/library/Acl/Acl.
 
 //Returns:
 /mnt/f/xampp/htdocs/xtest/vokuro/app/library/Acl/Acl.php:
-Phalcon\Mvc\User\Component => Renamed to Phalcon\Plugin
+Phalcon\Mvc\User\Component =>  Renamed to Phalcon\Di\AbstractInjectionAware
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl\Role => No changes (Might need to check types)
-Phalcon\Acl\Resource => Renamed to Phalcon\Acl\Component
+Phalcon\Acl\Resource =>  Renamed to Phalcon\Acl\Component
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
 Phalcon\Acl\Adapter\Memory => No changes (Might need to check types)
-Phalcon\Acl::DENY) => Check changes in constant
+Phalcon\Acl::DENY) => Check possible changes in constant
 ```
 
 
