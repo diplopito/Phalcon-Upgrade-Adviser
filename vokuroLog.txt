@@ -1,4 +1,4 @@
-### Log example for Vokuro for 3.4.x with 4.0.0-RC2
+### Log example for Vokuro for 3.4.x with 4.0.0-RC3
 
 F:\xampp\htdocs\xtest\vokuro\app\config\config.php:
 Phalcon\Config => No changes (Might need to check types)
@@ -220,5 +220,3 @@ No Phalcon classes found
 F:\xampp\htdocs\xtest\vokuro\public\index.php:
 Phalcon\DI\FactoryDefault => No changes (Might need to check types)
 Phalcon\Mvc\Application => No changes (Might need to check types)
-
-
