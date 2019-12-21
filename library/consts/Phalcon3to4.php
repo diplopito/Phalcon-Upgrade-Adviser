@@ -173,6 +173,7 @@ class Phalcon3to4
             "Phalcon\Helper\Arr" => "New",
             "Phalcon\Helper\Exception" => "New",
             "Phalcon\Helper\Fs" => "New",
+            "Phalcon\Helper\Json" => "New",
             "Phalcon\Helper\Number" => "New",
             "Phalcon\Helper\Str" => "New",
             "Phalcon\Html\Attributes" => "New",
