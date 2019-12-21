@@ -4,6 +4,8 @@ This console application aims to smooth the upgrade process from Phalcon 3.x to 
 The Adviser is a companion to the [Official Phalcon upgrade guide](https://github.com/phalcon/docs/blob/4.0/en/upgrade.md): whenever the log points to a _renamed_ class, it is recommendable to check the guide to know exactly what has to be changed. The Adviser is limited to new, renamed and removed classes. Other changes, like adding a handle to new applications, must be done following the guide.
 
 ## Changelog
+Dec. 21/19: Updated to v4.0.0
+
 Nov. 16/19: Updated to v4.0.0-RC3
 
 Nov. 3/19: Updated to v4.0.0-RC2
