@@ -1,26 +1,32 @@
 # Phalcon Upgrade Adviser (Unofficial)
-This console application aims to smooth the upgrade process from Phalcon 3.4.x to 4.0.x by indexing all the PHP files in a project and listing all the Phalcon classes that must be changed per file. It is a _proactive_ approach: rather than bumping from error to error, it helps the developer to make (hopefully) all the changes necessary before running the app to upgrade. It can be used along the upgrade process to follow up all the pending tasks; at the end, there should be no _renamed_ or _removed_ 3.x classes listed in the log file. 
+This console application aims to smooth the upgrade process from Phalcon 3.4.x to 4.0.x or Phalcon 4.0.x up to 5.1.3 by indexing all the PHP files in a project and listing all the Phalcon classes that must be changed per file. 
 
-The Adviser is a companion to the [Official Phalcon upgrade guide](https://github.com/phalcon/docs/blob/4.0/en/upgrade.md): whenever the log points to a _renamed_ class, it is recommendable to check the guide to know exactly what has to be changed. The Adviser is limited to new, renamed and removed classes. Other changes, like adding a handle to new applications, must be done following the guide.
+The Adviser is a companion to the [Official Phalcon upgrade guide to v4](https://github.com/phalcon/docs/blob/4.0/en/upgrade.md) and to the [Official Phalcon upgrade guide to v5](https://github.com/phalcon/docs/blob/5.0/en/upgrade.md): whenever the log points to a _renamed_ class, it is recommended to check the guide to know exactly what has to be changed. The Adviser is limited to new, renamed and removed classes. Other changes, like adding a handle to new applications, must be done following the guide.
 
 ## Requirements
-- Phalcon 4.x;
+- Php 7+ or 8+;
 
 ## Usage
 - Open a terminal window;
-- Command line `php cli.php Main createLog ` // Accepts two string parameters:
-1. Required: File name or path to application;
-2. Optional Log file ("upgraderLog.txt" by default).
+- Command line `php cli.php {upgradePath} {pathToObj} {logfile} ` where:
+1. `upgradePath` (Required): must be `v3to4`to upgrade from Phalcon 3 to 4 or `v4to5` to upgrade from Phalcon 4 to 5;
+2. `pathToObj` (Required): must be the path to the directory of the project that you want to upgrade or to a single file;
+3. `logfile` (optional): file to log the upgrading steps (if not provided, "upgraderLog.txt" will be used by default).
 
 ### Example:
 ```php
 //For full app check provide the path to the app:
-php cli.php Main createLog /mnt/f/xampp/htdocs/xtest/vokuro vokuroLog.txt //stores result in log file
+php cli.php v3to4 /mnt/f/xampp/htdocs/xtest/vokuro vokuroLog.txt //stores result in log file `vokuroLog.txt`
 ```
 View [Log file](https://github.com/diplopito/Phalcon-Upgrade-Adviser/blob/master/vokuroLog.txt)
+
+php cli.php v4to5 F:\xampp\htdocs\xtest\vokuro-4.1 vokuro4to5.txt
+
+View [Log file](https://github.com/diplopito/Phalcon-Upgrade-Adviser/blob/master/vokuro4to5.txt)
+
 ```php
 //To check just one file; result will be returned to terminal:
-php cli.php Main createLog /mnt/f/xampp/htdocs/xtest/vokuro/app/library/Acl/Acl.php
+php cli.php v3to4 /mnt/f/xampp/htdocs/xtest/vokuro/app/library/Acl/Acl.php
 
 //Returns:
 /mnt/f/xampp/htdocs/xtest/vokuro/app/library/Acl/Acl.php:
@@ -36,4 +42,4 @@ Phalcon\Acl::DENY) => Check possible changes in constant
 
 
 ## Note
-The Adviser will skip the _.git_ and _vendor_ directories.
+The Adviser will skip the _.volt_ files, _.git_ and _vendor_ directories.
