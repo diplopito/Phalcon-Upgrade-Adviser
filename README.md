@@ -16,7 +16,7 @@ The Adviser is a companion to the [Official Phalcon upgrade guide to v4](https:/
 ### Example:
 ```php
 //Migrating a project from Phalcon 3.4.5 to 4.1.2
-//For full app check provide the path to the app:
+//For full app upgrade provide the path to the app:
 php cli.php v3to4 /mnt/f/xampp/htdocs/xtest/vokuro vokuroLog.txt //stores result in log file `vokuroLog.txt`
 ```
 View [Log file](https://github.com/diplopito/Phalcon-Upgrade-Adviser/blob/master/vokuroLog.txt)
