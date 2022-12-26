@@ -1,0 +1,577 @@
+F:\xampp\htdocs\xtest\vokuro-4.1\.htrouter.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\config\acl.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\config\config.php:
+Phalcon\Logger => Rename | `Phalcon\Logger\Logger` | The component has been refactored and the dependency to PSR has been removed. The interface method calls are much stricter now. Check: https://docs.phalcon.io/5.0/en/logger
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\config\providers.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\config\routes.php:
+Phalcon\Mvc\Router => Change: Changed add(), addConnect(), addDelete(), addGet(), addHead(), addOptions(), addPatch(), addPost(), addPurge(), addPut(), addTrace(), attach() to accept int as $position Changed getEventsManager() to return ManagerInterface or null 
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\migrations\20190825181051_create_email_confirmations.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\migrations\20190825193313_create_failed_logins.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\migrations\20190825193322_create_password_changes.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\migrations\20190825193331_create_permissions.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\migrations\20190825193340_create_profiles.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\migrations\20190825193346_create_remember_tokens.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\migrations\20190825193355_create_reset_passwords.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\migrations\20190825193404_create_success_logins.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\migrations\20190825193409_create_users.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\seeds\PermissionsSeeder.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\seeds\ProfilesSeeder.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\db\seeds\UsersSeeder.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\phinx.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\public\index.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Application.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\FactoryDefault => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Http\ResponseInterface => No changes
+Phalcon\Mvc\Application => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\AboutController.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\ControllerBase.php:
+Phalcon\Mvc\Controller => No changes
+Phalcon\Mvc\Dispatcher => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\IndexController.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\PermissionsController.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\PrivacyController.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\ProfilesController.php:
+Phalcon\Mvc\Model\Criteria => No changes
+Phalcon\Paginator\Adapter\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\SessionController.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\TermsController.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\UserControlController.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Controllers\UsersController.php:
+Phalcon\Mvc\Model\Criteria => No changes
+Phalcon\Paginator\Adapter\QueryBuilder => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Forms\ChangePasswordForm.php:
+Phalcon\Forms\Element\Password => No changes
+Phalcon\Forms\Form => No changes
+Phalcon\Validation\Validator\Confirmation => Rename | `Phalcon\Filter\Validation\Validator\Confirmation`
+Phalcon\Validation\Validator\PresenceOf => Rename | `Phalcon\Filter\Validation\Validator\PresenceOf`
+Phalcon\Validation\Validator\StringLength => Rename | `Phalcon\Filter\Validation\Validator\StringLength`
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Forms\ForgotPasswordForm.php:
+Phalcon\Forms\Element\Submit => No changes
+Phalcon\Forms\Element\Text => No changes
+Phalcon\Forms\Form => No changes
+Phalcon\Validation\Validator\Email => Rename | `Phalcon\Filter\Validation\Validator\Email`
+Phalcon\Validation\Validator\PresenceOf => Rename | `Phalcon\Filter\Validation\Validator\PresenceOf`
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Forms\LoginForm.php:
+Phalcon\Forms\Element\Check => Change: The class now use the Phalcon\Html\Helper\Input\Checkbox. The class uses checked and unchecked parameters to set the state of each control. If the checked parameter is identical to the $value then the control will be checked. If the unchecked parameter is present, it will be set if the $value is not the same as the checked parameter. Check: https://docs.phalcon.io/5.0/en/html-tagfactory
+Phalcon\Forms\Element\Hidden => No changes
+Phalcon\Forms\Element\Password => No changes
+Phalcon\Forms\Element\Submit => No changes
+Phalcon\Forms\Element\Text => No changes
+Phalcon\Forms\Form => No changes
+Phalcon\Validation\Validator\Email => Rename | `Phalcon\Filter\Validation\Validator\Email`
+Phalcon\Validation\Validator\Identical => Rename | `Phalcon\Filter\Validation\Validator\Identical`
+Phalcon\Validation\Validator\PresenceOf => Rename | `Phalcon\Filter\Validation\Validator\PresenceOf`
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Forms\ProfilesForm.php:
+Phalcon\Forms\Element\Hidden => No changes
+Phalcon\Forms\Element\Select => No changes
+Phalcon\Forms\Element\Text => No changes
+Phalcon\Forms\Form => No changes
+Phalcon\Validation\Validator\PresenceOf => Rename | `Phalcon\Filter\Validation\Validator\PresenceOf`
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Forms\SignUpForm.php:
+Phalcon\Forms\Element\Check => Change: The class now use the Phalcon\Html\Helper\Input\Checkbox. The class uses checked and unchecked parameters to set the state of each control. If the checked parameter is identical to the $value then the control will be checked. If the unchecked parameter is present, it will be set if the $value is not the same as the checked parameter. Check: https://docs.phalcon.io/5.0/en/html-tagfactory
+Phalcon\Forms\Element\Hidden => No changes
+Phalcon\Forms\Element\Password => No changes
+Phalcon\Forms\Element\Submit => No changes
+Phalcon\Forms\Element\Text => No changes
+Phalcon\Forms\Form => No changes
+Phalcon\Validation\Validator\Confirmation => Rename | `Phalcon\Filter\Validation\Validator\Confirmation`
+Phalcon\Validation\Validator\Email => Rename | `Phalcon\Filter\Validation\Validator\Email`
+Phalcon\Validation\Validator\Identical => Rename | `Phalcon\Filter\Validation\Validator\Identical`
+Phalcon\Validation\Validator\PresenceOf => Rename | `Phalcon\Filter\Validation\Validator\PresenceOf`
+Phalcon\Validation\Validator\StringLength => Rename | `Phalcon\Filter\Validation\Validator\StringLength`
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Forms\UsersForm.php:
+Phalcon\Forms\Element\Hidden => No changes
+Phalcon\Forms\Element\Select => No changes
+Phalcon\Forms\Element\Text => No changes
+Phalcon\Forms\Form => No changes
+Phalcon\Validation\Validator\Email => Rename | `Phalcon\Filter\Validation\Validator\Email`
+Phalcon\Validation\Validator\PresenceOf => Rename | `Phalcon\Filter\Validation\Validator\PresenceOf`
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Helpers.php:
+Phalcon\Di => Change | `Phalcon\Di\Di` | The tag service now returns an instance of Phalcon\Html\TagFactory The (new) helper service returns an instance of Phalcon\Support\HelperFactory
+Phalcon\Di\DiInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Models\EmailConfirmations.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Models\FailedLogins.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Models\PasswordChanges.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Models\Permissions.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Models\Profiles.php:
+Phalcon\Mvc\Model => No changes
+Phalcon\Mvc\Model\Relation => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Models\RememberTokens.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Models\ResetPasswords.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Models\SuccessLogins.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Models\Users.php:
+Phalcon\Mvc\Model => No changes
+Phalcon\Security => Rename | `Phalcon\Encryption\Security`
+Phalcon\Validation => Change | `Phalcon\Filter\Validation` | Renamed and Added getValueByEntity() and getValueByData() for more options to retrieve data. Added the ability to define allowEmpty to any validator (in the parameters)
+Phalcon\Validation\Validator\Uniqueness => Rename | `Phalcon\Filter\Validation\Validator\Uniqueness`
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Plugins\Acl\Acl.php:
+Phalcon\Acl\Adapter\AbstractAdapter => No changes
+Phalcon\Acl\Adapter\Memory => No changes
+Phalcon\Acl\Component => No changes
+Phalcon\Acl\Enum => No changes
+Phalcon\Acl\Role => No changes
+Phalcon\Di\Injectable => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Plugins\Auth\Auth.php:
+Phalcon\Di\Injectable => No changes
+Phalcon\Http\Response => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Plugins\Auth\Exception.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Plugins\Mail\Exception.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Plugins\Mail\Mail.php:
+Phalcon\Di\Injectable => No changes
+Phalcon\Mvc\View => Change: Marked as @deprecated exists() Added has() (replacing the exists() method) 
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\AclProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\AssetsProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Assets\Manager => Change: Multiple changes. Check https://docs.phalcon.io/5.0/en/upgrade#phalconassetsmanager 
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\AuthProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\ConfigProvider.php:
+Phalcon\Config => Change | `Phalcon\Config\Config` | A new interface has been introduced (Phalcon\Config\ConfigInterface) to offer more flexibility when extending the config object.
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\CryptProvider.php:
+Phalcon\Crypt => Change | `Phalcon\Encryption\Crypt\` | Check https://docs.phalcon.io/5.0/en/encryption-crypt and https://docs.phalcon.io/5.0/en/upgrade#encryption
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\DbProvider.php:
+Phalcon\Config => Change | `Phalcon\Config\Config` | A new interface has been introduced (Phalcon\Config\ConfigInterface) to offer more flexibility when extending the config object.
+Phalcon\Db\Adapter\Pdo => No changes
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\DispatcherProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Mvc\Dispatcher => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\FlashProvider.php:
+Phalcon\Escaper => Change | `Phalcon\Html\Escaper` | Renamed and added New methods. Check https://docs.phalcon.io/5.0/en/upgrade#phalconhtmlescaper
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Flash\Direct => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\LoggerProvider.php:
+Phalcon\Config => Change | `Phalcon\Config\Config` | A new interface has been introduced (Phalcon\Config\ConfigInterface) to offer more flexibility when extending the config object.
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Logger\Adapter\Stream => Change: Failing to write to the file will throw a LogicException instead of UnexpectedValueException
+Phalcon\Logger\Formatter\Line => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\MailProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\ModelsMetadataProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Mvc\Model\Metadata\Stream => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\RouterProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Mvc\Router => Change: Changed add(), addConnect(), addDelete(), addGet(), addHead(), addOptions(), addPatch(), addPost(), addPurge(), addPut(), addTrace(), attach() to accept int as $position Changed getEventsManager() to return ManagerInterface or null 
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\SecurityProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Security => Rename | `Phalcon\Encryption\Security`
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\SessionBagProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Session\Bag => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\SessionProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Session\Adapter\Stream => Change: Changed __construct() to throw an exception if the save path is empty
+Phalcon\Session\Manager => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\UrlProvider.php:
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Url => Rename | `Phalcon\Mvc\Url`
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\src\Providers\ViewProvider.php:
+Phalcon\Config => Change | `Phalcon\Config\Config` | A new interface has been introduced (Phalcon\Config\ConfigInterface) to offer more flexibility when extending the config object.
+Phalcon\Di\DiInterface => No changes
+Phalcon\Di\ServiceProviderInterface => No changes
+Phalcon\Mvc\View => Change: Marked as @deprecated exists() Added has() (replacing the exists() method) 
+Phalcon\Mvc\View\Engine\Volt => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\_support\AcceptanceTester.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\_support\FunctionalTester.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\_support\Helper\Acceptance.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\_support\Helper\Functional.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\_support\Helper\Unit.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\_support\UnitTester.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\acceptance\controllers\AboutControllerCest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\acceptance\controllers\IndexControllerCest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\acceptance\controllers\PermissionsControllerCest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\acceptance\controllers\PrivacyControllerCest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\acceptance\controllers\ProfilesControllerCest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\acceptance\controllers\SessionControllerCest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\acceptance\controllers\TermsControllerCest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\acceptance\controllers\UsersControllerCest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\functional\forms\ChangePasswordFormTest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\functional\forms\ForgotPasswordFormTest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\functional\forms\LoginFormTest.php:
+Phalcon\Di => Change | `Phalcon\Di\Di` | The tag service now returns an instance of Phalcon\Html\TagFactory The (new) helper service returns an instance of Phalcon\Support\HelperFactory
+Phalcon\Di\FactoryDefault => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\functional\forms\ProfilesFormTest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\ApplicationTest.php:
+No Phalcon classes found
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\AboutControllerTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\ControllerBaseTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\IndexControllerTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\PermissionsControllerTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\PrivacyControllerTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\ProfilesControllerTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\SessionControllerTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\TermsControllerTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\UserControlControllerTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\controllers\UsersControllerTest.php:
+Phalcon\Mvc\Controller => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\forms\ChangePasswordFormTest.php:
+Phalcon\Forms\Form => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\forms\ForgotPasswordFormTest.php:
+Phalcon\Forms\Form => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\forms\LoginFormTest.php:
+Phalcon\Forms\Form => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\forms\ProfilesFormTest.php:
+Phalcon\Forms\Form => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\forms\SignUpFormTest.php:
+Phalcon\Forms\Form => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\forms\UsersFormTest.php:
+Phalcon\Forms\Form => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\models\EmailConfirmationsTest.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\models\FailedLoginsTest.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\models\PasswordChangesTest.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\models\PermissionsTest.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\models\ProfilesTest.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\models\RememberTokensTest.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\models\ResetPasswordsTest.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\models\SuccessLoginsTest.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\models\UsersTest.php:
+Phalcon\Mvc\Model => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\plugins\acl\AclTest.php:
+Phalcon\Di\Injectable => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\plugins\auth\AuthTest.php:
+Phalcon\Di\Injectable => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\plugins\mail\MailTest.php:
+Phalcon\Di\Injectable => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\AclProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\AssetsProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\AuthProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\ConfigProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\CryptProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\DbProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\DispatcherProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\FlashProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\LoggerProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\MailProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\ModelsMetadataProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\RouterProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\SecurityProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\SessionBagProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\SessionProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\UrlProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
+F:\xampp\htdocs\xtest\vokuro-4.1\tests\unit\providers\ViewProviderTest.php:
+Phalcon\Di\ServiceProviderInterface => No changes
+
+
