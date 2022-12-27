@@ -6,10 +6,10 @@ class Adviser
     private $phalconClasses;
     private $logFile;
 
-    public function __construct(array $phalconClasses, string $path, string $logFile = "upgradeLog.txt") {
+    public function __construct(array $phalconClasses, string $path, string $logFile) {
         $this->phalconClasses = $phalconClasses;
         $this->path = $path;
-        $this->logFile = $logFile;
+        $this->logFile = (empty($logFile)) ?  "upgradeLog.txt" : $logFile;
     }
     
     public function createLogAction()
@@ -25,6 +25,10 @@ class Adviser
         $phpFiles = [];
 
         $this->getPhpFiles($this->path, $phpFiles);
+        
+        if (empty($phpFiles)) {
+            die("No PHP files found in $this->path");
+        }
 
         $log = $this->processPhpFiles($phpFiles);
 
