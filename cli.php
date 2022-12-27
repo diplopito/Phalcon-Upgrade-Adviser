@@ -20,6 +20,8 @@ if ($arguments['classes'] === 'v3to4') {
     $classes = include_once('v3to4.php');
 } else if ($arguments['classes'] === 'v4to5') {
     $classes = include_once('v4to5.php');
+} else if ($arguments['classes'] === 'v3to5') {
+    $classes = include_once('v3to5.php');
 } else {
     die("Conversion " . $arguments['classes'] . " not supported");
 }
