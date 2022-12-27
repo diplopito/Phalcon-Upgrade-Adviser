@@ -38,19 +38,6 @@ class Adviser
 
     }
 
-    public function travelPhpFiles(string $path): array
-    {
-        $files = [];
-
-        $this->getPhpFiles($path, $files);
-
-        if (count($files) == 0) {
-            die("No PHP files found in folder $path");            
-        }
-
-        return $files;       
-    }
-
     private function processPhpFiles(array $files): string
     {
         $log = "";
