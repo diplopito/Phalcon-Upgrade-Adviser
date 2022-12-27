@@ -1,5 +1,5 @@
 # Phalcon Upgrade Adviser (Unofficial)
-This console application aims to smooth the upgrade process from Phalcon 3.4.x to 4.0.x or Phalcon 4.0.x up to 5.1.3 by indexing all the PHP files in a project and listing all the Phalcon classes that must be changed per file. 
+This console application aims to smooth the upgrade process from Phalcon 3.4.x to 4.0.x, 3.4.x to 5.1.3 or 4.0.x up to 5.1.3 by indexing all the PHP files in a project and listing all the Phalcon classes that must be changed per file. 
 
 The Adviser is a companion to the [Official Phalcon upgrade guide to v4](https://github.com/phalcon/docs/blob/4.0/en/upgrade.md) and to the [Official Phalcon upgrade guide to v5](https://github.com/phalcon/docs/blob/5.0/en/upgrade.md): whenever the log points to a _renamed_ class, it is recommended to check the guide to know exactly what has to be changed. The Adviser is limited to new, renamed and removed classes. Other changes, like adding a handle to new applications, must be done following the guide.
 
@@ -9,7 +9,7 @@ The Adviser is a companion to the [Official Phalcon upgrade guide to v4](https:/
 ## Usage
 - Open a terminal window;
 - Command line `php cli.php {upgradePath} {pathToObj} {logfile} ` where:
-1. `upgradePath` (Required): must be `v3to4`to upgrade from Phalcon 3 to 4 or `v4to5` to upgrade from Phalcon 4 to 5;
+1. `upgradePath` (Required): must be `v3to4`to upgrade from Phalcon 3 to 4, `v3to5` to upgrade from Phalvon 3 to 5 or `v4to5` to upgrade from Phalcon 4 to 5;
 2. `pathToObj` (Required): must be the path to the directory of the project that you want to upgrade or to a single file;
 3. `logfile` (optional): file to log the upgrading steps (if not provided, "upgraderLog.txt" will be used by default).
 
