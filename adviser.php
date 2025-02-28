@@ -55,6 +55,10 @@ class Adviser
 
         foreach ($files as $key => $value) {
             $path = realpath($dir . DIRECTORY_SEPARATOR . $value);
+            if (!$path) {
+                error_log("Skipping path that can't be resolved: $dir/$value (dead link?)");
+                continue;
+            }
 
             if (is_file($path)) {
                 if (pathinfo($path, PATHINFO_EXTENSION) === "php") {
